@@ -41,7 +41,7 @@ sheet.update(values=[headers], range_name="A1")
 reg_num_idx = headers.index("Companies House Registration Number")
 reg_name_idx = headers.index("Companies House Registration Name")
 turnover_idx = headers.index("Turnover")
-employee_idx = headers.index("Employees")
+employee_idx = headers.index("Employee Size")
 
 
 def create_endole_slug(company_name):
